@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="turmacgrupo2?zeroDateTimeBehavior=convertToNullPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>turmacgrupo2.Cliente_1</class>
+    <class>turmacgrupo2.Cliente</class>
+    <class>turmacgrupo2.Funcionario</class>
+    <class>turmacgrupo2.Fornecedor</class>
+    <class>turmacgrupo2.Produto</class>
+    <class>turmacgrupo2.DetVenda_1</class>
+    <class>turmacgrupo2.Venda</class>
+    <class>turmacgrupo2.DetVenda</class>
+    <class>turmacgrupo2.DetCompra</class>
+    <class>turmacgrupo2.Compra</class>
+    <class>turmacgrupo2.NivelAcesso</class>
+    <class>turmacgrupo2.Estoque</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/turmacgrupo2?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+    </properties>
+  </persistence-unit>
+</persistence>
